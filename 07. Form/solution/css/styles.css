@@ -6,6 +6,16 @@ form {
   position: relative;
   padding: 10px 18px 20px 24px;
   background: #fff;
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
+.address-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: .5em;
 }
 
 label {
@@ -21,6 +31,9 @@ textarea {
   width: 100%;
   resize: none;
   font-weight: 400;
+  border: 0;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+
 
   -webkit-appearance: none;
   outline: none;
@@ -52,6 +65,15 @@ button[type="submit"] {
   outline: none;
   cursor: pointer;
   transition: all 0.15s ease;
+}
+
+.button-div {
+  text-align: right;
+  grid-column: 2/3;
+}
+
+button:hover {
+  background: hsla(0, 10%, 45%, 1);
 }
 
 html,

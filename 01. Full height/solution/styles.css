@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+  padding: 0px 30px;
+  width: 100%;
+  height: 10%;
+  background-color: lightskyblue;
+}
+
+main {
+  padding: 0 30px;
+  min-height: 70%;
+  background-color: lightcyan;
+}
+
+footer {
+  padding: 0 30px;
+  height: 20%;
+  background-color: lightblue;
+}
